@@ -1,0 +1,18 @@
+﻿ATTRIBUTE,DESCRIPTION,TYPE & RANGE
+YEAR,Calendar year of the departure,Integer; 2015-2019
+MONTH,Calendar year of the departure,Integer; 1-12
+DAY_OF_MONTH,Calendar year of the departure,Integer; 1-31
+DAY_OF_WEEK,Day of the week,Integer; 1-7
+IS_HOLIDAY,Flag indicating whether departure date falls within holiday season,Binary; 1 if holiday
+DEP_TIME_BLK,Scheduled departure time blocks,"String; 0001-0059, then hourly intervals up to 2300-2359 "
+ARR_TIME_BLK,Scheduled arrival time blocks,"String; 0001-0059, then hourly intervals up to 2300-2359"
+OP_UNIQUE_CARRIER,An identification code assigned by US DOT to identify an airline,String; 9E-YX
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
